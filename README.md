@@ -31,4 +31,4 @@ Python, Pandas, scikit-learn, Hugging Face Transformers, SciPy, PySpark, Hadoop 
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/usama-hanif-8956bb1b0)
+[LinkedIn](https://www.linkedin.com/in/usama-hanif-ai/)
