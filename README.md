@@ -2,7 +2,7 @@
 
 Course projects for **Big Data Analytics** at the University of Management and Technology (UMT), Lahore, by **Usama Hanif** (BS Artificial Intelligence).
 
-Each project tackles a real marketing question for Pakistani brands and comes with its own repository, a live dashboard and a short report. The projects build on each other: customer sentiment from Project 1 drives the ad messaging in Project 2.
+Each project tackles a real marketing question for Pakistani brands and comes with its own repository, a live dashboard and a short report. The projects build on each other into one marketing system for the same brands: customer sentiment from Project 1 drives the ad messaging in Project 2, and Project 3 finds the audience groups and lost sales behind the comments.
 
 ## Projects
 
@@ -10,7 +10,7 @@ Each project tackles a real marketing question for Pakistani brands and comes wi
 |---|---|---|---|---|
 | 1 | **Footwear brand sentiment analysis** (Borjan, Servis, Ndure) | What do customers really say about each brand, and what do they praise or complain about? | [Live dashboard](https://pk-footwear-sentiment-analysis-kuphdsqeabs38rt56yt7nm.streamlit.app/) | [Repository](https://github.com/usamahanif349/pk-footwear-sentiment-analysis) |
 | 2 | **Digital ad budget optimizer** (Borjan, Servis, Ndure) | Where should each brand spend its next Rs. 1,000,000 on ads, who should it target, what should it say and when? | [Live dashboard](https://pk-footwear-budget-optimizer.streamlit.app/) | [Repository](https://github.com/usamahanif349/pk-footwear-budget-optimizer) |
-| 3 | *Coming soon:* social audience and campaign intelligence | Which audience needs and content patterns are hidden in social media comments? | – | – |
+| 3 | **Joota Pulse: audience & campaign intelligence** (8 footwear brands) | Which customers are asking to buy, what do they need, which content works, and what should the brand do next? | [Live web app](https://usamahanif349.github.io/joota-pulse/) · [Analyst dashboard](https://pk-footwear-audience-engine.streamlit.app/) | [Repository](https://github.com/usamahanif349/pk-footwear-audience-engine) |
 
 ## Project highlights
 
@@ -25,9 +25,16 @@ Each project tackles a real marketing question for Pakistani brands and comes wi
 - Tested against a known true optimum (99.8%+ of the best revenue), with limitations documented
 - Pandas vs Hadoop MapReduce vs Spark benchmark on up to 100 million rows
 
+**3. Joota Pulse (audience & campaign intelligence)**
+- 6,724 real YouTube comments on 690 videos about 8 Pakistani footwear brands, collected with the official YouTube Data API
+- Found that brands answered 1 of 65 buying questions on their own videos, with 832 more waiting under creator videos (about Rs 2.9 lakh in missed sales, as an estimate)
+- Multilingual AI embeddings and K-Means group comments into 11 customer groups; unusual posts flagged with peer z-scores and an Isolation Forest
+- A marketing web app with a leads inbox, ready replies in Roman Urdu and English, campaign ideas and a one-click client report
+- Pandas vs Spark benchmark on up to 3 million comments
+
 ## Tools
 
-Python, Pandas, scikit-learn, Hugging Face Transformers, SciPy, PySpark, Hadoop Streaming, Plotly, Streamlit, Google Colab
+Python, Pandas, scikit-learn, Hugging Face Transformers, sentence embeddings, SciPy, PySpark, Hadoop Streaming, YouTube Data API, Plotly, Streamlit, HTML/CSS/JavaScript, Google Colab
 
 ## Contact
 
