@@ -26,7 +26,7 @@ Each project tackles a real marketing question for Pakistani brands and comes wi
 - Pandas vs Hadoop MapReduce vs Spark benchmark on up to 100 million rows
 
 **3. Joota Pulse (audience & campaign intelligence)**
-- Real YouTube comments about 8 Pakistani footwear brands (6,724 in the first snapshot, 7,400+ now), collected with the official YouTube Data API and refreshed automatically every Monday
+- Real YouTube data on 11 Pakistani footwear brands (3,400+ posts and 13,000+ comments as of 15 Nov 2026), collected with the official YouTube Data API and refreshed automatically every Monday
 - Found that brands answered 1 of 65 buying questions on their own videos, with hundreds more waiting under creator videos
 - Multilingual AI embeddings and K-Means group comments into 11 customer groups; unusual posts flagged with peer z-scores and an Isolation Forest
 - A marketing web app on Vercel: leads inbox with ready replies in Roman Urdu and English, brand health score, alerts, a Monday digest, WhatsApp sharing and a free audit page for every brand
